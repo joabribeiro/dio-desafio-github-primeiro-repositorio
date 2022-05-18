@@ -1,0 +1,36 @@
+# Introdução
+
+> ### O que é o Git ? 
+>
+> > O Git é um sistema de controle de versão de arquivos. É um software livre e muito utilizado no desenvolvimento de software onde diversas pessoas estão contribuindo simultaneamente, podendo criar e editar arquivos. Sempre quando alguém disponibiliza sua parte do projeto no Git, ele gerencia as alterações feitas e guarda um histórico. Isso é importante pois se houver algum problema você pode desfazer as alterações e voltar para a versão que estava estável.
+> >
+> > O Git foi projetado e desenvolvido pelo *Linus Torvalds* para o desenvolvimento do Linux e foi adotado por muitos outros projetos.
+> >
+> 
+>### O que é o GitHub ? 
+> 
+>> O GitHub é uma plataforma onde você pode armazenar seus projetos. É como se fosse uma rede social, só que de códigos, onde seus desenvolvedores podem disponibilizá-los para outras pessoas verem.
+> >
+> > Quando seu projeto está no GitHub, você pode facilmente baixar uma cópia em outro computador. É uma plataforma gratuita e armazena milhões de projetos, tanto open source, pessoais e até mesmo comerciais. Alguns projetos bem conhecidos são o *WordPress* e o *Linux*. Hoje o GitHub pertence a Microsoft, que o adquiriu no ano de 2018.
+> >
+> > Muitas pessoas utilizam o GitHub como portfólio de seu trabalho para que empresas possam vê-lo. Se você ainda não possui um GitHub e quer fazer parte, basta criar uma conta e um repositório.
+> >
+> > O GitHub só suporta o Git, então para você subir seus projetos deve utilizá-lo, mas a integração entre eles é bem fácil. Agora caso queira utilizar somente o Git, não tem problema. Ao contrário do GitHub, o Git não depende do GitHub para ser utilizado.
+> 
+>#### Principais comandos Git
+> 
+>>- **Init**: este comando dá origem a um repositório novo, local ou remoto, ou reinicializa um repositório já existente;
+> >
+> >- **Clone**: este comando clona o código de um repositório para sua manipulação em outro ambiente;
+> >
+> >- **Commit**: este comando move os arquivos da *state area* para um repositório local;
+> >
+> >- **Add**: este comando adiciona um arquivo alterado a uma *staging area*, ou seja, o prepara para ser vinculado a um *commit*;
+> >
+> >- **Push**: este comando envia arquivos de um repositório local para um repositório remoto. No GitHub, por exemplo;
+> >
+> >- **Pull**: ao contrário do push, este comando traz um arquivo do repositório remoto para o repositório local.
+> >
+> >- **Merge**: este comando serve para unir arquivos alterados ao arquivo original de um projeto. Em outras palavras, é ele quem une os branchs as *commits*.
+> >
+> >- **Log**: este comando permite a visualização do histórico de *commits* de um arquivo ou usuário, ou o acesso de uma versão específica.
